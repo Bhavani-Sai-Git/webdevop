@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav" aria-label="Main desktop navigation">
+        <div class="logo">Hello</div>
+        <div>
+            <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav" aria-label="Main mobile navigation">
+        <div class="logo">Bhavani sai</div>
+        <div class="hamburger-menu">
+        <button type="button" class="hamburger-icon" aria-label="Open menu" title="Open menu" onclick="toggleMenu()" onkeydown="if(event.key==='Enter'||event.key===' '){toggleMenu();}">
+        <span></span>
+        <span></span>
+        <span></span>
+        </button>
+        <div class="menu-links">
+            <ul>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="profile-pic.png" alt="Bhavani sai profile">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm </p>
+            <h1 class="tittle">Bhavani sai</h1>
+            <p class="seciton__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button type="button" class="btn btn-color-2" onclick="window.open('resume-example.pdf')">
+                Download CV
+                </button>
+            </div>
+        </div>
+    </section>
+
+    </body>
+</html>

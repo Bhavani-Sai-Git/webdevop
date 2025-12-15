@@ -1,0 +1,70 @@
+@import url('http://127.0.0.1:5500/portfolio/index.html'/'css?family=poppins');
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #bbb 5px solid;
+}
+
+header h1 {
+    float: left;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+header p {
+    float: right;
+    margin-top: 18px;
+}
+
+#about {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+#about h2 {
+    color: #333;
+}
+
+#projects {
+    padding-top: 20px;
+}
+
+.project {
+    background: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    border: #ccc 1px solid;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
