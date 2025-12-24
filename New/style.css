@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1375d6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Page heading */
+h1 {
+    text-align: center;
+    color: #502c2c;
+    margin-bottom: 20px;
+}
+
+/* Form container */
+form {
+    max-width: 900px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Labels */
+label {
+    display: inline-block;
+    width: 180px;
+    font-weight: 600;
+    color: green;
+}
+
+/* Inputs & textareas */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+textarea {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Textarea */
+textarea {
+    resize: vertical;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 25px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Reset/Delete button */
+input[type="reset"] {
+    background-color: #e74c3c;
+    color: white;
+}
+
+input[type="reset"]:hover {
+    background-color: #c0392b;
+}
+
+/* Button alignment */
+div {
+    text-align: center;
+    margin-top: 20px;
+}
